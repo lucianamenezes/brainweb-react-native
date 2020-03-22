@@ -1,0 +1,25 @@
+{
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "material-icon-theme",
+    
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 16,
+    "editor.lineHeight": 20,
+    "editor.fontLigatures": true,
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+    "javascript",
+    {
+    "language":"javascriptreact",
+    "autoFix": true
+    }
+    ],
+    "breadcrumbs.enabled": true,
+    "sync.gist": "9e282ecd6f56226f7947a05e761a129f",
+    "javascript.validate.enable" : false,
+    "window.zoomLevel": 0,
+    "terminal.integrated.shell.osx": "/bin/bash",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+}
