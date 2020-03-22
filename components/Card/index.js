@@ -38,9 +38,9 @@ const Card = ({
     <Container selected={selected} onPress={onPress}>
       <TitleContent>
         {!onIncrement
-                        && <Title>{counter.name}</Title>}
+          && <Title>{counter.name}</Title>}
         {(onIncrement && onDecrement && onReset)
-                    && renderButtons()}
+                && renderButtons()}
       </TitleContent>
       <NumberContent>
         <Number>{counter.number}</Number>

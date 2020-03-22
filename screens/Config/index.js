@@ -25,8 +25,6 @@ export default function Config() {
   const counters = useSelector((state) => state.counters);
   const counter = selectedCounter.length > 0 && counters.filter((count) => count.id == selectedCounter[0].id);
   const dispatch = useDispatch();
-  console.log('COUNTER', counter);
-  console.log('SELECTED', selectedCounter);
 
   function addCount() {
     const counterToAdd = {
